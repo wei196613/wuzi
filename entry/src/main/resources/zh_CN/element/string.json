@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "entryability_label",
+      "value": "五子棋"
+    },
+    {
+      "name": "cancelButton_label",
+      "value": "取消"
+    },
+    {
+      "name": "confirmButton_label",
+      "value": "确认"
+    },
+    {
+      "name": "cloudStorage_description_title",
+      "value": "提示:"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "form_label"
+    },
+    {
+      "name": "shortcut_label",
+      "value": "双人对战"
+    },
+    {
+      "name": "shortcut_label1",
+      "value": "人机对战"
+    }
+  ]
+}

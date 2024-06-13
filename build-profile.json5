@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "00000019ECCB257091E2B015910C7B6C251223D9A76F390DB45E9B6A235837AB050C8A3BC2BF3861A2",
+          "certpath": "C:/huawei/keys/wuzi.cer",
+          "keyAlias": "wuzi",
+          "keyPassword": "000000199D1961930EBB0A13CBA8C8EFFC862F4AA46E3195246DEEAD34FCA13E43A8A6E165B4213F2F",
+          "profile": "C:/huawei/keys/wuziRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/huawei/keys/wuzi.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "shortcuts": [
+    {
+      "shortcutId": "id_test1",
+      "label": "$string:shortcut_label",
+      "icon": "$media:1V1",
+      "wants": [
+        {
+          "abilityName": "EntryAbility",
+          "bundleName": "com.example.wuzi"
+        }]
+    },
+    {
+      "shortcutId": "id_test2",
+      "label": "$string:shortcut_label1",
+      "icon": "$media:ai",
+      "wants": [
+        {
+          "abilityName": "EntryAbility",
+          "bundleName": "com.example.wuzi"
+        }]
+    }
+  ]
+}
